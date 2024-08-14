@@ -1,0 +1,188 @@
+{ "button": {
+  "title":"Tel Us Your Needs!"
+  },
+    "nav": {
+      "brand": "TradeSuccess",
+      "home": "Home",
+      "about": "About us",
+      "services": "Services",
+      "successStories": "Success stories",
+      "team": "Our team",
+      "contact": "Let's Talk!"
+    },
+    "hero": {
+      "heroTitle": "Unlocking <span class=\"has-before\">success </span> for your business",
+      "heroText": " Trade Success is your premier IT consulting partner, specializing in helping small and medium-sized businesses generate revenue through cutting-edge digital marketing strategies. Our automated software solutions save you time, while our comprehensive business formation service guides you every step of the way. your business to succeed in the digital age and maximize your online presence and growth potential",
+      "howItWorks": "Tel Us Your Needs!",
+      "behindTheScenes": "Watch Video",
+      "socialMedia": {
+        "facebook": "Facebook",
+        "youtube": "Youtube",
+        "twitter": "Twitter"
+      }
+    },
+    "aboutUs": {
+      "title": "About us",
+      "expertsInGuiding": "Experts in Guiding Entrepreneurs Through <span class=\"has-before\">Business</span> Challenges",
+      "qualifiedTeam": "Qualified team",
+      "qualifiedTeamText": "Our qualified team is fully available to listen to your needs and understand your challenges, so we can offer you tailored solutions that meet your specific requirements.",
+      "strongPartnerships": "Strong partnerships",
+      "strongPartnershipsText": "Thanks to our strong partnerships, we offer customized solutions in customer relationship management, process automation, digital marketing, financial planning, business creation, and more.",
+      "referencePartner": "Your reference partner",
+      "referencePartnerText": "Trade Success will be your reference partner to support you in increasing your turnover, reducing your administrative costs, implementing efficient IT tools, and many other services.",
+      "prosper": "Prosper",
+      "prosperText": "Trust Trade Success to help you achieve your goals and full potential."
+    },
+    "services": {
+      "sectionSubtitle": "Our Services",
+      "sectionTitle": "Manging your business with our <span class=\"has-before\">best services</span>",
+      "service1Title": "Customer relationship management",
+      "service2Title": "Business Creation",
+      "service3Title": "Digital Marketing",
+      "card1Title": "Customer relationship management",
+      "card1Desc": " In partnership with Spondei, we offer a rapid deployment solution for an integrated management platform for SMEs, from customer request to invoicing. This CRM software improves your digital interactions with customers and prospects, optimizing your customer relationship and productivity. Check out our success stories and contact us for a free demo of our CRM software tailored to small and medium-sized businesses.",
+      "card2Title": "Business Creation",
+      "card2Desc": "You have a business idea but don't know where to start ? Trade Success guides you every step of the way to start your business quickly. Our services include drafting the statutes, developing the financial plan, creating a website, your digital identity, your logo and integrating the Spondei platform for efficient daily management. Our comprehensive support in business creation will guarantee the success of your business.",
+      "card3Title": "Digital marketing",
+      "card3Desc": "Boost your sales with expert Google tool optimization. Let us improve your online presence with targeted Google Ads campaigns and SEO improvements. Need a website, logo or digital identity? We have you covered with our professional web development services. Partner with us for top-notch digital content. Marketing advice and results-driven strategies."
+    },
+    "testimonials": {
+      "sectionSubtitle": "Success Stories",
+      "sectionTitle": "They <span class=\"has-before\">trust us</span>",
+      "kgoessensTitle": "K-Goessens",
+      "kgoessensContent": "‟ Since Trade Success's intervention, we have become very responsive to requests. Their help has enabled us to implement solutions that have practically replaced a full-time salesperson ”",
+      "kgoessensManager": "Kévin Goessens",
+      "privateChauffeurTitle": "Private Chauffeur Paris",
+      "privateChauffeurContent": "‟ We are very happy with our partnership... thanks to Spondei and TradeSuccess, we spend much less time... moreover, our turnover has skyrocketed... ”",
+      "privateChauffeurManager": "Company Manager",
+      "button":"Check It Out"
+    },
+    "values": {
+      "strongCollaboration": "Strong Collaboration",
+      "effectiveCommunication": "Effective Communication",
+      "innovativeThinking": "Innovative Thinking"
+    },
+    "team": {
+      "sectionSubtitle": "Our Team",
+      "sectionTitle": "Get to know <span class=\"has-before\">us</span>"
+    },
+    "teamMembers": {
+      "0": {
+        "position": "Consultant Benelux et France",
+        "description": "Discover the founder and Benelux Consultant "
+      },
+      "1": {
+        "position": "Consultant en Ingénierie Industrielle et Système Informatique",
+        "description": "Discover our France Consultant"
+      },
+      "2": {
+        "position": "Consultant",
+        "description": "Discover our UK Consultant"
+      },
+      "3": {
+        "position": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio provident dolores."
+      },
+      "4": {
+        "position": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio provident dolores."
+      }
+    },
+    "contact": {
+     "getInContact": "Get in contact",
+      "contactUsDescription": "Contact us now to successfully achieve your goals by filling out the form below"
+    },
+    "footer": {
+      "tradeSuccess": "TradeSuccess",
+      "footerDescription": "Trade Success partners with you for business success. Need help with company setup, digital strategy, or sales? We’re your ally. As a Spondei partner, we create custom automated workflows from prospect requests to billing. Our team is here to help you achieve your goals.",
+      "usefulLinks": "Useful Links",
+      "contactUs": "Contact us",
+      "howItWorks": "How it Works",
+      "create": "Create",
+      "explore": "Explore",
+      "termsAndServices": "Terms & Services",
+      "community": "Community",
+      "helpCenter": "Help Center",
+      "partners": "Partners",
+      "suggestions": "Suggestions",
+      "blog": "Blog",
+      "newsletters": "Newsletters",
+      "instagramPost": "Contact",
+      "termsAndConditions": "Terms and conditions",
+      "privacyPolicy": "Privacy policy"
+    },
+   "taxidriver": {
+        "testimonialTitle": "Private Chauffeur Paris",
+        "testimonialSubheader": "Our Experience with Private Chauffeur Paris",
+        "testimonialContent": [
+          {
+            "paragraph": "Private Chauffeur Paris is a chauffeur-driven car rental company. Thanks to Trade Success's assistance, this family business has streamlined its internal processes. They went from 8 hours of daily administrative management to just 2 hours. They are now able to respond to complex and specific rental requests very quickly, allowing them to gain more business opportunities. Their turnover has quadrupled since Trade Success's intervention."
+          },
+       
+          {
+            "resultsTitle": "Results",
+            "resultsContent": [
+              "4x times less time spent on administrative tasks",
+              "4x times Turnover increase"
+            ]
+          }
+        ]
+      },
+      
+        "kgoessens": {
+          "testimonialTitle": "K-Goessens",
+          "testimonialSubheader": "Our Experience with K-Goessens",
+          "testimonialContent": [
+            {
+              "paragraph": "K-Goessens is a small company located in the Hainaut region of Belgium, specializing in electricity, motorization, sectional doors, gate manufacturing, and security. Thanks to our intervention, the company was able to reduce the quote delivery time from 3 weeks to just 24 hours. Additionally, the number of quote requests received via their website increased from 1 per week to 1 per day."
+            },
+            {
+              "resultsTitle": "Results",
+              "resultsContent": [
+                "20x faster quote delivery",
+                "6x more quote requests"
+              ]
+            }
+          ]
+        },
+      
+      
+      
+        "teampage": {
+          "title": "Our Team",
+          "description": "Trade Success is an international company with consultants and specialists in several regions of the world.",
+          "members": {
+            "amin": {
+              "name": "Amin Anouar",
+              "position": "Consultant Benelux and France",
+              "bio": "Founder of Trade Success, Amin Anouar has gained solid experience within the largest IT companies such as Autodesk and SAP. He has recognized expertise in the field of information technology. After years of perfecting his skills, he decided to use his expertise to advise his clients wisely. With his attentive listening and sincere desire to help, Amin Anouar stands out as an exceptional consultant. His personalized and insightful advice will guarantee the success of your projects."
+            },
+            "nil": {
+              "name": "Nil Lajnef",
+              "position": "Industrial Engineering and IT Systems Consultant",
+              "bio": "Holding an engineering degree, Nil is a seasoned expert in industrial engineering and IT systems with extensive experience in leading companies. He began his career at Renault, where he worked for 3 years as a Methods Engineer, refining his skills further at SPIE as a Project Manager. Drawing on these diverse experiences, Nil brings deep technical expertise and proven project management capabilities to Trade Success. His methodical approach and commitment to excellence enable his clients to achieve their goals with efficiency and innovation. Nil is a valuable asset to any organization looking to optimize processes and ensure the success of their projects."
+            },
+            "phil": {
+              "name": "Phil",
+              "position": "Consultant",
+              "bio": "A graduate in Law BA(Hons) & a Fellow member of the UK Chartered Certified Accountants with over 10 years experience in the Corporate world including Financial Services (Investment Banking & Insurance), Phil possesses an intuitive grasp of Business & Commercial awareness and manages his clients' needs with utmost diligence, professionalism, a 'can do' attitude and often exceeds their expectations. His passion for Tech, Business Applications and Products makes him a well sought after asset that clients look out for in today's fast-paced digital environment. Although much of his professional career centred in the city of London & Canary Wharf, UK, Phil can easily relate with the local business culture thanks to experience and knowledge acquired through his travels and residence in several countries around the globe. He is a rare blend and a pleasure to work with due to his effective communication. He speaks 5 languages."
+            },
+            "lorem1": {
+              "name": "Lorem Ipsum",
+              "position": "CFO",
+              "bio": "Lorem Ipsum is the CFO managing finances. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem Ipsum is the CFO managing finances. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem Ipsum is the CFO managing finances. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem Ipsum is the CFO managing finances. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            "lorem2": {
+              "name": "Lorem Ipsum",
+              "position": "CMO",
+              "bio": "Lorem Ipsum is the CMO driving marketing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem Ipsum is the CFO managing finances. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem Ipsum is the CFO managing finances. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          }
+        }
+      
+      
+
+    
+    
+  }
+  

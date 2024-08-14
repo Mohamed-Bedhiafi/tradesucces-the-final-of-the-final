@@ -1,0 +1,147 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.teampage {
+  text-align: center;
+  padding: 150px 20px 50px 20px;
+}
+
+.teampage-quote {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.fixed-part {
+  color: #333;
+}
+
+.dynamic-part {
+  color: #253f8e;
+  transition: opacity 0.5s ease-in-out; /* Smooth transition */
+}
+
+.dynamic-part.fade-out {
+  opacity: 0; /* Fade out */
+}
+
+.teampage-title {
+  font-size: 28px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.teampage-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.teampage-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: center; /* Center items */
+  gap: 20px; /* Space between items */
+}
+
+.teampage-member {
+  flex: 1 1 calc(50% - 40px); /* 2 items per row with gap adjustment */
+  display: flex;
+  flex-direction: column; /* Ensure column layout */
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+.teampage-member-content {
+  display: flex;
+  flex-direction: column; /* Ensure column layout */
+  align-items: center;
+  width: 100%;
+  padding: 20px; /* Consistent padding for all members */
+  box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+.teampage-member.bg-lightbluegray {
+  background-color: #f0f4f8;
+}
+
+.teampage-member.bg-white {
+  background-color: #ffffff;
+}
+
+.teampage-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px; /* Space below the image */
+}
+
+.teampage-info {
+  text-align: center; /* Align text to the center */
+  max-width: 100%;
+}
+
+.teampage-member-name {
+  font-size: 22px;
+  color: #333;
+}
+
+.teampage-member-position {
+  font-size: 18px;
+  color: #253f8e;
+}
+
+.teampage-member-bio {
+  font-size: 16px;
+  color: #666;
+}
+
+.linkedin-icon {
+  margin-top: 1rem; /* Space above the icon */
+  text-align: center; /* Center the icon */
+}
+
+.linkedin-icon a {
+  color: #0077b5; /* LinkedIn brand color */
+  text-decoration: none; /* Remove underline */
+}
+
+.linkedin-icon a:hover {
+  color: #005582; /* Darker shade on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .teampage-member {
+    flex: 1 1 100%; /* Full width for each item */
+  }
+
+  .teampage-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .teampage-member-name {
+    font-size: 20px;
+  }
+
+  .teampage-member-position {
+    font-size: 16px;
+  }
+
+  .teampage-member-bio {
+    font-size: 14px;
+  }
+
+  .teampage-member-content {
+    padding: 20px; /* Consistent padding for all members */
+  }
+}
