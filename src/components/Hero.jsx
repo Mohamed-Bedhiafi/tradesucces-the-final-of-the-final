@@ -15,18 +15,18 @@ const Hero = () => {
 
           <h1 className="h1 hero-title" dangerouslySetInnerHTML={{ __html: t('hero.heroTitle') }}></h1>
 
-          <p className="hero-text">
-            {t('hero.heroText')}
+          <p className="hero-text"    dangerouslySetInnerHTML={{ __html: t('hero.heroText')}}>
+       
           </p>
 
           <div className="wrapper">
             <a href="/formulaire" className="btn btn-primary has-before has-after">
               {t('hero.howItWorks')}
             </a>
-            <button className="hero-btn" aria-label="">
+            <a href="#testimonial" className="hero-btn" aria-label="">
               <FaPlay aria-hidden="true" />
-              <span className="span">{t('hero.behindTheScenes')}</span>
-            </button>
+            <span className="span">{t('hero.behindTheScenes')}</span>
+            </a>
           </div>
 
           <ul className="social-list">

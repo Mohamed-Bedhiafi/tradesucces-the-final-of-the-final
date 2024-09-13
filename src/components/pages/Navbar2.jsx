@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles.css';
 import { FaBars } from 'react-icons/fa';
-import logo from '../../images/logo.png';
+import logo from '../../images/logo (4).png';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../LanguageSwitcher';
 

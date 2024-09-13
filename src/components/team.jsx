@@ -4,7 +4,7 @@ import './styles.css';
 import team1 from '../images/amin.jpeg';
 import team2 from '../images/image2.png';
 import team3 from '../images/image3.png';
-import team4 from '../images/team.jpeg';
+import team4 from '../images/Anice.png';
 import team5 from '../images/team.jpeg';
 
 import { useTranslation } from "react-i18next";
@@ -32,13 +32,13 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: 'Lorem ipsum',
+    name: 'Anice L.',
     image: team4,
-    linkedin: 'https://www.linkedin.com/in/lorem-ipsum', // Add LinkedIn URL
+    linkedin: 'https://www.linkedin.com/in/spondei-app-8126b02a7?originalSubdomain=fr ', // Add LinkedIn URL
   },
   {
     id: 4,
-    name: 'Lorem ipsum',
+    name: 'Haykel Ben Chaabane ',
     image: team5,
     linkedin: 'https://www.linkedin.com/in/lorem-ipsum', // Add LinkedIn URL
   },

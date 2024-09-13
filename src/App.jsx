@@ -78,7 +78,7 @@ const App = () => {
             position: 'fixed',
             bottom: '50px',
             right: '50px',
-            backgroundColor: 'blue',
+            backgroundColor: '#3B54A3',
             color: 'white',
             border: 'none',
             borderRadius: '30px', // Make it a pill shape

@@ -80,7 +80,7 @@ const Testimonials = () => {
       className="section testimonials relative container mx-auto px-5 md:px-16 flex flex-col gap-5 text-center"
       id="testimonial"
     >
-      <div>
+      <div style={{ paddingTop: '20px' }}>
         <h2 className="h2 section-title text-center" dangerouslySetInnerHTML={{ __html: t('testimonials.sectionTitle') }}></h2>
       </div>
       <div className="testimonials-grid">

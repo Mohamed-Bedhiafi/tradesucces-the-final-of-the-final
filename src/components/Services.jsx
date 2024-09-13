@@ -10,88 +10,84 @@ import { useTranslation } from 'react-i18next';
 
 const Services = () => {
   const { t } = useTranslation();
-  const [activeCard, setActiveCard] = useState(0);
+  const [activeCard, setActiveCard] = useState(null); // Start with no card active
 
-  const handleCardHover = (index) => {
-    setActiveCard(index);
+  const handleCardClick = (index) => {
+    setActiveCard(index === activeCard ? null : index); // Toggle active state
   };
 
   return (
     <section className="section service" id="service" aria-label="service">
-    <div className="container">
-      <h2 className="h2 section-title text-center" dangerouslySetInnerHTML={{ __html: t('services.sectionTitle') }}></h2>
-  
-      <ul className="grid-list">
-        <li>
-          <div
-            className={`service-card ${activeCard === 1 ? 'active' : ''}`}
-            onMouseEnter={() => handleCardHover(1)}
-            onClick={() => handleCardHover(1)}
-            style={{ '--color': '17, 100%, 68%' }}
-          >
-            <div className="card-icon">
-              <img src={service1} width="30" height="30" loading="lazy" alt="service icon" />
+      <div className="container">
+        <h2 className="h2 section-title text-center" dangerouslySetInnerHTML={{ __html: t('services.sectionTitle') }}></h2>
+    
+        <ul className="grid-list">
+          <li>
+            <div
+              className={`service-card ${activeCard === 1 ? 'active' : ''}`}
+              onClick={() => handleCardClick(1)} // Toggle on click
+              style={{ '--color': '17, 100%, 68%' }}
+            >
+              <div className="card-icon">
+                <img src={service1} width="30" height="30" loading="lazy" alt="service icon" />
+              </div>
+              <h3 className="h3 card-title">{t('services.service1Title')}</h3>
             </div>
-            <h3 className="h3 card-title">{t('services.service1Title')}</h3>
-          </div>
-          <div className={`cardContent ${activeCard === 1 ? 'active' : ''}`} style={{ '--color': '17, 100%, 68%' }}>
-            <div className="imageContainer">
-              <img src={approach} alt="Customer relationship management" />
+            <div className={`cardContent ${activeCard === 1 ? 'active' : ''}`} style={{ '--color': '17, 100%, 68%' }}>
+              <div className="imageContainer">
+                <img src={approach} alt="Customer relationship management" />
+              </div>
+              <div className="textContainer">
+                <div className="cardTitle">{t('services.card1Title')}</div>
+                <div className="cardDesc" dangerouslySetInnerHTML={{ __html: t('services.card1Desc') }}></div>
+              </div>
             </div>
-            <div className="textContainer">
-              <div className="cardTitle">{t('services.card1Title')}</div>
-              <div className="cardDesc" dangerouslySetInnerHTML={{ __html: t('services.card1Desc') }}></div>
+          </li>
+          <li>
+            <div
+              className={`service-card ${activeCard === 2 ? 'active' : ''}`}
+              onClick={() => handleCardClick(2)} // Toggle on click
+              style={{ '--color': '52, 98%, 50%' }}
+            >
+              <div className="card-icon">
+                <img src={service2} width="30" height="30" loading="lazy" alt="service icon" />
+              </div>
+              <h3 className="h3 card-title">{t('services.service2Title')}</h3>
             </div>
-          </div>
-        </li>
-        <li>
-          <div
-            className={`service-card ${activeCard === 2 ? 'active' : ''}`}
-            onMouseEnter={() => handleCardHover(2)}
-            onClick={() => handleCardHover(2)}
-            style={{ '--color': '52, 98%, 50%' }}
-          >
-            <div className="card-icon">
-              <img src={service2} width="30" height="30" loading="lazy" alt="service icon" />
+            <div className={`cardContent ${activeCard === 2 ? 'active' : ''}`} style={{ '--color': '52, 98%, 50%' }}>
+              <div className="imageContainer">
+                <img src={qualityservice} alt="Business Development" />
+              </div>
+              <div className="textContainer">
+                <div className="cardTitle">{t('services.card2Title')}</div>
+                <div className="cardDesc" dangerouslySetInnerHTML={{ __html: t('services.card2Desc') }}></div>
+              </div>
             </div>
-            <h3 className="h3 card-title">{t('services.service2Title')}</h3>
-          </div>
-          <div className={`cardContent ${activeCard === 2 ? 'active' : ''}`} style={{ '--color': '52, 98%, 50%' }}>
-            <div className="imageContainer">
-              <img src={qualityservice} alt="Business Development" />
+          </li>
+          <li>
+            <div
+              className={`service-card ${activeCard === 3 ? 'active' : ''}`}
+              onClick={() => handleCardClick(3)} // Toggle on click
+              style={{ '--color': '157, 89%, 44%' }}
+            >
+              <div className="card-icon">
+                <img src={service3} width="30" height="30" loading="lazy" alt="service icon" />
+              </div>
+              <h3 className="h3 card-title">{t('services.service3Title')}</h3>
             </div>
-            <div className="textContainer">
-              <div className="cardTitle">{t('services.card2Title')}</div>
-              <div className="cardDesc" dangerouslySetInnerHTML={{ __html: t('services.card2Desc') }}></div>
+            <div className={`cardContent ${activeCard === 3 ? 'active' : ''}`} style={{ '--color': '157, 89%, 44%' }}>
+              <div className="imageContainer">
+                <img src={management} alt="Digital marketing" />
+              </div>
+              <div className="textContainer">
+                <div className="cardTitle">{t('services.card3Title')}</div>
+                <div className="cardDesc" dangerouslySetInnerHTML={{ __html: t('services.card3Desc') }}></div>
+              </div>
             </div>
-          </div>
-        </li>
-        <li>
-          <div
-            className={`service-card ${activeCard === 3 ? 'active' : ''}`}
-            onMouseEnter={() => handleCardHover(3)}
-            onClick={() => handleCardHover(3)}
-            style={{ '--color': '157, 89%, 44%' }}
-          >
-            <div className="card-icon">
-              <img src={service3} width="30" height="30" loading="lazy" alt="service icon" />
-            </div>
-            <h3 className="h3 card-title">{t('services.service3Title')}</h3>
-          </div>
-          <div className={`cardContent ${activeCard === 3 ? 'active' : ''}`} style={{ '--color': '157, 89%, 44%' }}>
-            <div className="imageContainer">
-              <img src={management} alt="Digital marketing" />
-            </div>
-            <div className="textContainer">
-              <div className="cardTitle">{t('services.card3Title')}</div>
-              <div className="cardDesc" dangerouslySetInnerHTML={{ __html: t('services.card3Desc') }}></div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-  
+          </li>
+        </ul>
+      </div>
+    </section>
   );
 };
 

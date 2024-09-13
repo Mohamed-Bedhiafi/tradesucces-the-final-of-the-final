@@ -10,34 +10,27 @@ body {
   padding: 150px 20px 50px 20px;
 }
 
-.teampage-quote {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 50px;
-}
-
-.fixed-part {
-  color: #333;
-}
-
-.dynamic-part {
-  color: #253f8e;
-  transition: opacity 0.5s ease-in-out; /* Smooth transition */
-}
-
-.dynamic-part.fade-out {
-  opacity: 0; /* Fade out */
-}
-
 .teampage-title {
   font-size: 28px;
   color: #333;
   margin: 20px 0;
+  text-align: center;
+  font-weight: bold;
 }
 
-.teampage-description {
+.teampage-quote {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #253E8E;
+  text-align: center;
+}
+
+.teampage-description,
+.teampage-member-bio {
   font-size: 18px;
   color: #666;
+  text-align: justify; /* Justify the text */
   margin-bottom: 50px;
 }
 
@@ -57,6 +50,7 @@ body {
   border-radius: 8px;
   max-width: 800px;
   box-sizing: border-box;
+  
 }
 
 .teampage-member-content {
@@ -87,21 +81,21 @@ body {
 .teampage-info {
   text-align: center; /* Align text to the center */
   max-width: 100%;
-}
+  }
 
 .teampage-member-name {
   font-size: 22px;
   color: #333;
+  font-weight: bold;
+  padding-bottom: 7px;
+
 }
 
 .teampage-member-position {
   font-size: 18px;
   color: #253f8e;
-}
-
-.teampage-member-bio {
-  font-size: 16px;
-  color: #666;
+  font-weight: bold;
+  padding-bottom: 30px;
 }
 
 .linkedin-icon {
