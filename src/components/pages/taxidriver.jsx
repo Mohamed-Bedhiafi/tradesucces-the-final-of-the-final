@@ -4,7 +4,7 @@ import './testimonialStyles.css';
 import { useTranslation } from 'react-i18next';
 import { gsap } from 'gsap';
 
-const TaxiDriverTestimonial = () => {
+const TaxiDriverTestimonial = ({ onLanguageChange }) => {
   const { t } = useTranslation();
   const content = t('taxidriver.testimonialContent', { returnObjects: true });
 
@@ -23,7 +23,7 @@ const TaxiDriverTestimonial = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar onLanguageChange={onLanguageChange}/>
       <div className="container mx-auto px-5 md:px-16 testimonial-section">
         <div className="testimonial-flex-container">
         <div className="testimonial-video">

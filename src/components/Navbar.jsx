@@ -5,7 +5,7 @@ import logo from '../images/logo (4).png';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 
-const Navbar = () => {
+const Navbar = ({ onLanguageChange }) => {
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -97,10 +97,10 @@ const Navbar = () => {
         </nav>
 
         <div className="nav-links">
-          <a href="#contact" className="nav-link" style={{ fontSize: '2rem', color: 'black'  }}>{t('nav.contact')}</a> 
+          <a href="/formulaire" className="nav-link" style={{ fontSize: '2rem', color: 'white'  }}>{t('nav.contact')}</a> 
         </div>
 
-        <LanguageSwitcher />
+        <LanguageSwitcher onLanguageChange={onLanguageChange} />
 
         <button className="nav-open-btn" aria-label="open menu" data-nav-toggler>
           <FaBars aria-hidden="true" />

@@ -5,7 +5,7 @@ import team1 from '../images/amin.jpeg';
 import team2 from '../images/image2.png';
 import team3 from '../images/image3.png';
 import team4 from '../images/Anice.png';
-import team5 from '../images/team.jpeg';
+import team5 from '../images/Haykel.jpg';
 
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,7 +28,7 @@ const teamMembers = [
     id: 2,
     name: 'Phil',
     image: team3,
-    linkedin: 'https://www.linkedin.com/in/phil', // Add LinkedIn URL
+    linkedin: 'https://www.linkedin.com/in/phil-emamally-/', 
   },
   {
     id: 3,

@@ -6,6 +6,10 @@ import './styles.css';
 const Contact = () => {
   const { t } = useTranslation();
 
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0); 
+  };
+
   return (
     <section 
       id="contact"
@@ -17,8 +21,12 @@ const Contact = () => {
           <h2 className="h2 section-title" dangerouslySetInnerHTML={{ __html: t('contact.contactUsDescription') }}></h2>
 
           <div className="button-container">
-            <Link to="/formulaire" target="_blank" className="contact-link">
-            {t('contact.getInContact')}
+            <Link 
+              to="/formulaire" 
+              className="contact-link" 
+              onClick={handleLinkClick}
+            >
+              {t('contact.getInContact')}
             </Link>
           </div>
         </div>

@@ -452,8 +452,8 @@ body {
 
 .nav-link {
   display: inline-block;
-  background-color: white; /* Set background to white */
-  color: #4069ef; /* Change text color to a blue shade for contrast */
+  background-color: #253E8E; 
+  color: #4069ef; 
   text-decoration: none;
   font-size: 2rem;
   font-weight: 700;
@@ -464,7 +464,7 @@ body {
 }
 
 .nav-link:hover {
-  background-color: #f9f9f9; /* Slightly off-white for hover */
+  background-color: #253E8E; /* Slightly off-white for hover */
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3), inset 0 0 10px rgba(255, 255, 255, 0.6); /* Enhance shine and shadow */
   transform: scale(1.05);
 }
@@ -829,7 +829,6 @@ body {
 .contact-info li {
   display: flex;
   align-items: center;
-  margin-block-start: 10px;
 }
 
 .contact-icon {

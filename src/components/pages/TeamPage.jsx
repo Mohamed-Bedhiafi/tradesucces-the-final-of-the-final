@@ -5,7 +5,7 @@ import team1 from '../../images/amin.jpeg';
 import team2 from '../../images/image2.png';
 import team3 from '../../images/image3.png';
 import team4 from '../../images/Anice.png';
-import team5 from '../../images/team.jpeg';
+import team5 from '../../images/Haykel.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './teampage.css';
@@ -38,7 +38,7 @@ const teamMembers = [
   },
 ];
 
-const TeamPage = () => {
+const TeamPage = ({ onLanguageChange }) => {
   const { t } = useTranslation();
   const [typedQuote, setTypedQuote] = useState('');
   const [isFadingOut, setIsFadingOut] = useState(false);
@@ -86,7 +86,7 @@ const TeamPage = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar onLanguageChange={onLanguageChange}/>
       <div className="teampage">
         <h2 className="teampage-title">{t('teampage.title')}</h2>
         <h1 className="teampage-quote">

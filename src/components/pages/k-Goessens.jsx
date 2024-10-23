@@ -4,7 +4,7 @@ import './testimonialStyles.css';
 import { useTranslation } from 'react-i18next';
 import { gsap } from 'gsap';
 
-const KGoessensTestimonial = () => {
+const KGoessensTestimonial = ({ onLanguageChange }) => {
   const { t } = useTranslation();
   const content = t('kgoessens.testimonialContent', { returnObjects: true });
 
@@ -23,7 +23,7 @@ const KGoessensTestimonial = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar onLanguageChange={onLanguageChange}/>
       <div className="container mx-auto px-5 md:px-16 testimonial-section">
         
         <div className="testimonial-flex-container">

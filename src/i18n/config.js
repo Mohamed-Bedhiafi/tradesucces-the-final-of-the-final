@@ -2,7 +2,7 @@ export const resources = {
     en: {
       translation: {
         button: {
-          title:"Tel Us Your Needs!"
+          title:"Tell Us Your Needs!"
          },
         nav: {
           brand: "TradeSuccess",
@@ -16,7 +16,7 @@ export const resources = {
         hero: {
           heroTitle: "Unlocking <span class=\"has-before\">success </span> for your business",
           heroText: " <span class=\"gras2\"> Trade Success </span> is your premier <span class=\"gras\"> IT consulting partner</span>, specializing in <span class=\"gras\"> helping small and medium-sized businesses </span> generate revenue through cutting-edge <span class=\"gras\"> digital marketing strategies</span>. Our automated software solutions <span class=\"gras\"> save you time</span>, while our comprehensive business formation service <span class=\"gras\"> guides you every step </span> of the way. your business to <span class=\"gras\"> succeed in the digital age </span> and maximize your online presence and growth potential",
-          howItWorks: "Tel Us Your Needs!",
+          howItWorks: "Tell Us Your Needs!",
           behindTheScenes: "Success Stories",
           socialMedia: {
             facebook: "Facebook",

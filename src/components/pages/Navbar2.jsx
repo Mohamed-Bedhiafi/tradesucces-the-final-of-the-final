@@ -100,7 +100,7 @@ const Navbar = ({ onLanguageChange }) => {
         </nav>
 
         <div className="nav-links">
-          <Link to="/#contact" className="nav-link" style={{ fontSize: '2rem', color: 'black' }}>{t('nav.contact')}</Link>
+          <Link to="/#contact" className="nav-link" style={{ fontSize: '2rem', color: 'white' }}>{t('nav.contact')}</Link>
         </div>
 
         <LanguageSwitcher onLanguageChange={onLanguageChange} />

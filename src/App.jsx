@@ -7,6 +7,7 @@ import KGoessensTestimonial from './components/pages/k-Goessens';
 import TaxiDriverTestimonial from './components/pages/taxidriver';
 import Formulaire from './components/pages/formulaire';
 import TeamPage from './components/pages/TeamPage';
+
 import { useTranslation } from 'react-i18next';
 
 const App = () => {
@@ -36,6 +37,8 @@ const App = () => {
     i18n.changeLanguage(lng);
     setLanguage(lng);
     setSelectedDiv(lng === 'en' ? 'div1' : 'div2');
+    localStorage.setItem('selectedLanguage', lng);
+    localStorage.setItem('selectedDiv', lng === 'en' ? 'div1' : 'div2');
   };
 
   const handleButtonClick = () => {
@@ -61,12 +64,13 @@ const App = () => {
             <Contact />
           </>
         } />
-        <Route path="/k-goessens-testimonial" element={<KGoessensTestimonial />} />
-        <Route path="/taxi-driver-testimonial" element={<TaxiDriverTestimonial />} />
+        <Route path="/k-goessens-testimonial" element={<KGoessensTestimonial onLanguageChange={handleLanguageChange} />} />
+        <Route path="/taxi-driver-testimonial" element={<TaxiDriverTestimonial onLanguageChange={handleLanguageChange} />} />
         <Route path="/formulaire" element={<Formulaire selectedDiv={selectedDiv} setSelectedDiv={setSelectedDiv} onLanguageChange={handleLanguageChange} />} />
-        <Route path="/team" element={<TeamPage />} />
+        <Route path="/team" element={<TeamPage onLanguageChange={handleLanguageChange} />} />
+
       </Routes>
-      <Footer />
+       <Footer />
 
       {showButton && (
         <button
